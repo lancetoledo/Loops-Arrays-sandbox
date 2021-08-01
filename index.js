@@ -69,7 +69,7 @@ let array = [
 ];
 
 for (let i = 0; i < array.length; i++) {
-  for (let j = 0; i < array.length; j++) {
-    console.log(array[i][j])
+  for (let j = 0; i < array[i].length; j++) {
+    console.log(array[i][j]);
   }
 }
