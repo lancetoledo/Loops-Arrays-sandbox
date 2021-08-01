@@ -58,6 +58,16 @@ console.log(map1);
 
 console.log('//////////////////////////////////////////////////////');
 
-
 // Nested for loops with the Matrix problem
 
+let array = [
+  [1, 2, '#'],
+  ['#', 16, 32],
+  [64, '#', 256],
+  [512, 1024, '#'],
+  [4096, '#', 16384]
+];
+
+for (let i = 0; i < array.length; i++) {
+  console.log(array[i]);
+}
