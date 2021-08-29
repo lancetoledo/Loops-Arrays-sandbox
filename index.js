@@ -68,8 +68,4 @@ let array = [
   [4096, '#', 16384]
 ];
 
-for (let i = 0; i < array.length; i++) {
-  for (let j = 0; i < array[i].length; j++) {
-    console.log(array[i][j]);
-  }
-}
+
